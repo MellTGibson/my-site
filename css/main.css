@@ -3,7 +3,7 @@ body{
   font-family: Source Sans Pro, sans-serif;
 }
 
-#about,#work, #contact{
+#home,#about,#specialties,#work, #contact{
   height: 600px;
 }
 
@@ -38,10 +38,20 @@ header h1 {
     padding: 50px 0;
   }
 
+  /*****WORK PAGE HEADER*****/
+
+.workpage-title img {
+  margin-left: 10px;
+}
+
+.workpage-title h1 {
+  text-align: center;
+}
+
 
 nav {
   float:right;
-  padding: 75px 10px;
+  padding: 70px 5px;
 }
 
 nav ul li{
@@ -51,7 +61,7 @@ nav ul li{
 nav ul li a {
   color:#828282;
   font-size: 18px;
-  padding-left:80px;
+  padding-left:40px;
   text-decoration:none;
   text-transform: uppercase;
   }
@@ -92,27 +102,27 @@ header h2 span {
 
 /*****WORK*****/
 
-#work {
+#specialties {
 Background-color:#f9cfb9;
 text-align:center;
 }
 
-#work .full-width {
+#specialties .full-width {
   padding: 115px 0;
 }
 
-#work img {
+#specialties img {
   padding-bottom: 30px;
 }
 
-#work h3 {
+#specialties h3 {
   font-family:Source sans pro;
   font-size:24px;
   margin: 0 auto;
   width:190px;
     }
 
-#work p {
+#specialties p {
   color:#2b2b2b;
   font-family:'Lora', serif;
   font-size: 18px;

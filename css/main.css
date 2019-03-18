@@ -8,6 +8,7 @@ body{
   height: 600px;
 }
 
+
 /*****GRID*****/
 .full-width{
   margin: 0 auto;
@@ -39,17 +40,6 @@ header h1 {
     padding: 50px 0;
   }
 
-  /*****WORK PAGE HEADER*****/
-
-.workpage-title img {
-  margin-left: 10px;
-}
-
-.workpage-title h1 {
-  text-align: center;
-}
-
-
 nav {
   float:right;
   padding: 70px 5px;
@@ -67,6 +57,16 @@ nav ul li a {
   text-transform: uppercase;
   }
 
+/* mouse over link */
+nav ul li a:hover {
+  color: white;
+}
+
+/* selected link */
+nav ul li a:active {
+  color: #f9cfb9;
+}
+
 header h2{
   clear: both;
   color:#9b9b9b;
@@ -81,6 +81,24 @@ header h2{
 header h2 span {
   color:#2b2b2b;
 }
+
+/*****WORK PAGE HEADER STYLES*****/
+
+.workpage-header {
+  background: #ebebeb;
+}
+
+.workpage-title {
+  padding: 20px 0px 50px 0px;
+}
+
+.workpage-subtitle {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*****END OF WORK PAGE HEADER STYLES*****/
+
 
 /*****ABOUT*****/
 
